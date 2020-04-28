@@ -15,6 +15,9 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'devise'
+gem 'acts_as_votable'
+
 
 group :development do
   gem 'web-console', '>= 3.3.0'
@@ -28,3 +31,4 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
 end
+
